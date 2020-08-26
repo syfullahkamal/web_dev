@@ -1,0 +1,141 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background: black;
+}
+.header{
+	width: 1000px;
+	height: 100px;
+	margin: auto;
+	background: silver;
+}
+.header img{
+	height: 90px;
+	width: 90px;
+	float: left;
+	margin: 5px;
+	border-radius: 40%;
+}
+.header h1{
+	text-align: center;
+	line-height: 100px;
+	font-size: 50px;
+}
+.menu{
+	width: 1000px;
+	height: 60px;
+	margin: auto;
+	background: yellow;
+}
+.menu ul{
+	list-style: none;
+	float: right;
+	margin-right: 5px;
+}
+.menu ul li{
+	display: inline-block;
+}
+.menu ul li a{
+	text-decoration: none;
+	font-size: 30px;
+	line-height: 60px;
+	color: black;
+	padding: 5px 10px;
+	border: 2px solid black;
+	transition: 0.5s;
+}
+.menu ul li a:hover{
+	background: blue;
+	color: white;
+	border-radius: 20px;
+}
+.mark marquee{
+	font-size: 10px;
+}
+.content{
+	width: 1000px;
+	height: 500px;
+	background: darkblue;
+	margin: auto;
+}
+.maindata{
+	width: 70%;
+	height: 100%;
+	background: teal;
+	float: left;
+}
+.potaka{
+	width: 500px;
+	height: 300px;
+	margin-left: 185px;
+	margin-top: 10px;
+	background: green;
+	position: relative;
+}
+.golla{
+	width: 200px;
+	height: 200px;
+	background: red;
+	border-radius: 50%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.leftbar{
+	width: 25%;
+	height: 500px;
+	float: left;
+}
+.leftbar h2{
+	height: 10%;
+	line-height: 40px;
+	text-align: center;
+	background: purple;
+	color: white;
+	padding: 5px 0px;
+	border-radius: 10px;
+}
+.leftbar p{
+	height: 40%;
+	text-align: center;
+	background: grey;
+	color: white;
+	padding: 5px ;
+}
+.sidebar{
+	width: 30%;
+	height: 100%;
+	background: gold;
+	float: right;
+}
+.sidebar h1{
+}
+.footer{
+	width: 1000px;
+	height: 100px;
+	margin: auto;
+	background: silver;
+}
+.footer h1{
+	text-align: center;
+	line-height: 100px;
+}
+.photo{
+	width: 90%;
+	margin: auto;
+	padding: 10px;
+	background: red;
+}
+.photo img{
+	  border-radius: 50%; 
+	  margin-left: 60px;
+}
+button{
+	width: 100px;
+	margin: auto;
+	display: block;
+}
